@@ -31,7 +31,7 @@ unclassified:
           scm:
             github:
               credentialsId: "cbdays-github-username-pat"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "seccore1"
               repository: "pipeline-library"
 credentials:
   system:
@@ -44,10 +44,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              secret: "{AQAAABAAAAAw0dIafWIeBtKxnHKEMDUVIgiS2MK5XqzC0hwftgsm46WM5bdfuMSSe89XMP3t69W53PDkPoYo5UTeDH2pH1EBAQ==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "REPLACE_WITH_YOUR_GITHUB_USERNAME"
-              password: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              username: "jbaello"
+              password: "{AQAAABAAAAAw0dIafWIeBtKxnHKEMDUVIgiS2MK5XqzC0hwftgsm46WM5bdfuMSSe89XMP3t69W53PDkPoYo5UTeDH2pH1EBAQ==}"
